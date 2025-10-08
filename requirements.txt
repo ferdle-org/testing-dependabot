@@ -1,27 +1,27 @@
-# requirements_web.txt
-# Web development and API dependencies
-Django==4.2.7
-Flask==2.3.3
-FastAPI==0.104.1
-uvicorn==0.24.0
+# requirements_devops.txt
+# DevOps and infrastructure dependencies
+boto3==1.34.17
+botocore==1.34.17
+awscli==1.29.17
+docker==6.1.3
+kubernetes==28.1.0
+ansible==9.1.0
+fabric==3.1.0
+paramiko==3.3.1
+jinja2==3.1.2
+pyyaml==6.0.1
+cryptography==41.0.8
 requests==2.31.0
-aiohttp==3.9.1
-beautifulsoup4==4.12.2
-lxml==4.9.3
-html5lib==1.1
-cssutils==2.9.0
-Jinja2==3.1.2
-Werkzeug==2.3.7
-click==8.1.7
-gunicorn==21.2.0
+urllib3==2.0.7
 celery==5.3.4
 redis==5.0.1
-psycopg2-binary==2.9.9
-SQLAlchemy==2.0.23
-alembic==1.12.1
 pymongo==4.6.0
-mysql-connector-python==8.2.0
-django-cors-headers==4.3.1
-drf-yasg==1.21.7
-django-rest-framework==0.1.0
-flask-restful==0.3.10
+psutil==5.9.6
+prometheus-client==0.18.0
+grafana-api==1.0.4
+elasticsearch==8.11.0
+loguru==0.7.2
+structlog==23.2.0
+click==8.1.7
+rich==13.7.0
+typer==0.9.0
