@@ -7,7 +7,7 @@ docker==6.1.3
 kubernetes==28.1.0
 ansible==9.1.0
 fabric==3.1.0
-paramiko==3.3.1
+paramiko==4.0.0
 jinja2==3.1.2
 pyyaml==6.0.1
 cryptography==41.0.8
